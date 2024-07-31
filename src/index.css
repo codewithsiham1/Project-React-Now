@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.border {
+    border: 2px solid rgb(56, 56, 56);
+}
+
+body {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.footer-img{
+    background-image: url(../public/footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
